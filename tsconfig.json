@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    // Based on: https://github.com/resir014/gatsby-starter-typescript-plus/blob/master/tsconfig.json
+    "module": "commonjs",
+    "target": "esnext",
+    "jsx": "preserve",
+    "lib": ["dom", "es2015", "es2017", "ESNext"],
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+
+    // Custom config
+    "allowJs": true,
+    "diagnostics": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsxImportSource": "@emotion/react",
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src", "gatsby-config.ts"]
+}

@@ -1,6 +1,3 @@
-module.exports = {
-    siteMetadata: {
-        siteUrl: `https://www.yourdomain.tld`,
-    },
-    plugins: []
-}
+require('ts-node').register({ transpileOnly: true });
+
+module.exports = require('./gatsby-config.ts');
